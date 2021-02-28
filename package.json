@@ -1,0 +1,14 @@
+{
+  "name": "mini_v1",
+  "version": "1.0.0",
+  "description": "homework v1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shadowstar",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.6.8"
+  }
+}
