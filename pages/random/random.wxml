@@ -1,0 +1,20 @@
+<!--pages/random/random.wxml-->
+<view>
+  <van-popup show="{{ show }}" bind:close="onClose">
+      <image src="https://source.unsplash.com/random?{{focus}}" bindlongpress="longPress"/>
+    </van-popup>
+    <van-popup show="{{ showdownload }}" bind:close="CloseLoad" position="bottom">
+      <van-cell-group>
+        <van-cell title="下载图片" size="large" center  bind:click="downloadImage"/>
+        <!-- <van-cell title="上传云端" size="large" center  bind:click="uploadImage"/> -->
+      </van-cell-group>
+    </van-popup>
+    <view bindtouchstart="touchStart" bindtouchend="touchEnd">
+      <van-row wx:for="{{[0,1,2]}}" wx:for-item="i" wx:key="unique">
+        <van-col span="12" wx:for="{{[0,1]}}" wx:for-item="j" wx:key="unique">
+          <van-image show-loading width="185" height="185" src="https://source.unsplash.com/random?{{seed+2*i+j}}" is-link data-hi="{{i}}" data-hj="{{j}}" bind:click="showPopup">
+          </van-image>
+        </van-col>
+      </van-row>
+    </view>
+</view>

@@ -1,0 +1,9 @@
+<!--pages/main/main.wxml-->
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="随机图片">
+    <random/>
+  </van-tab>
+  <van-tab title="云端图片">
+    <cloud/>
+  </van-tab> 
+</van-tabs> 

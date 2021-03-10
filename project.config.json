@@ -36,16 +36,18 @@
     "userConfirmedUseCompilerModuleSwitch": false,
     "userConfirmedBundleSwitch": false,
     "packNpmManually": true,
-    "packNpmRelationList": [{
-      "packageJsonPath": "./package.json",
-      "miniprogramNpmDistDir": "./"
-    }],
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./"
+      }
+    ],
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
   "libVersion": "2.15.0",
   "appid": "wx6dbd5261f60e6259",
-  "projectname": "miniprogram-1",
+  "projectname": "wechatapppp",
   "debugOptions": {
     "hidedInDevtools": []
   },

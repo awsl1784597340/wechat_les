@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "random" :"/pages/random/random",
+    "cloud":"/pages/cloud/cloud",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
+  }
+}

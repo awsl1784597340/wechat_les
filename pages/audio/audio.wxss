@@ -1,0 +1,16 @@
+/* pages/audio/audio.wxss */
+/* .audio-dev{
+  display: flex;
+  position:fixed; 
+  bottom:0; 
+} */
+/* .audioo{
+} */
+.show{
+  position:fixed;
+  bottom:0;
+  display:flex;
+  width:100%;
+  justify-content:center;
+  background: #FFFFFF;
+}

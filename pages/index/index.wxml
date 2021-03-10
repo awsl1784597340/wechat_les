@@ -1,13 +1,11 @@
-<!--index.wxml-->
+
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
+  <van-image width="350" height="220" src="/pages/assert/logoo.png" />
+
+  <text class="text0">
+  D-picture提供随机图片接口，随机音频，图片上传以及图床一站式服务
+  </text>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <van-button type="primary" bindtap="toMain">点击进入主页</van-button>
   </view>
 </view>
