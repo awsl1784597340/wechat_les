@@ -14,3 +14,12 @@
   justify-content:center;
   background: #FFFFFF;
 }
+.upload{
+  position: fixed;
+  bottom:7.5ch;
+  right: 1ch;
+  display:flex;
+  /* width:100%; */
+  /* justify-content:center; */
+  /* background: #FFFFFF; */
+}

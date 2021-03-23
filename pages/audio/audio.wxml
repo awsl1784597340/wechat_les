@@ -1,5 +1,7 @@
 <!--pages/audio/audio.wxml-->
 <mainuse/>
+<upload class="upload"/>
+
 <view class="page-body" wx:if="{{showtab}}">
     <view bindtouchstart="touchStart" bindtouchend="touchEnd" class="show">
       <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls="true" loop class="audioo"></audio>

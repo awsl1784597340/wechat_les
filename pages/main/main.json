@@ -3,6 +3,7 @@
   "usingComponents": {
     "random" :"/pages/random/random",
     "cloud":"/pages/cloud/cloud",
+    "pictbed":"/pages/pictbed/pictbed",
     "van-tab": "@vant/weapp/tab/index",
     "van-tabs": "@vant/weapp/tabs/index"
   }

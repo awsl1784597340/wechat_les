@@ -5,7 +5,24 @@
   <text class="text0">
   D-picture提供随机图片接口，随机音频，图片上传以及图床一站式服务
   </text>
+  <text class="text0">
+  项目小程序前端源码：  
+  </text>
+  <text class="text0">
+    https://github.com/awsl1784597340/wechat_les 
+  </text>
+  <text class="text0">
+  项目后端图床服务器源码：  
+  </text>
+  <text class="text0">
+    https://github.com/awsl1784597340/file_up 
+  </text>
+
+  <view class="usermotto">
+    <van-button type="primary" bindtap="toInfo">项目说明</van-button>
+  </view>
   <view class="usermotto">
     <van-button type="primary" bindtap="toMain">点击进入主页</van-button>
   </view>
+
 </view>

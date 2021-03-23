@@ -7,3 +7,6 @@ page{background-color:#99c2ec;}
   padding-left: 5ch;
   padding-right: 5ch;
 }
+.usermotto{
+  padding-bottom: 5ch;
+}

@@ -1,0 +1,2 @@
+<!--pages/upload/upload.wxml-->
+<view style="margin-right:0ch"><van-button round type="info" bindtap="upupup">上传图片</van-button></view>

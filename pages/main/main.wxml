@@ -6,4 +6,7 @@
   <van-tab title="云端图片">
     <cloud/>
   </van-tab> 
+  <van-tab title="云端图床">
+    <pictbed/>
+  </van-tab> 
 </van-tabs> 

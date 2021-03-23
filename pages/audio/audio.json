@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "van-button": "@vant/weapp/button/index",
-    "mainuse":"/pages/main/main"
+    "mainuse":"/pages/main/main",
+    "upload":"/pages/upload/upload"
   }
 }
