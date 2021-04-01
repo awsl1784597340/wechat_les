@@ -12,7 +12,7 @@ Component({
    */
   data: {
       tmpfilepath:null,
-      url:'http://192.168.3.101:5000/upload'
+      url:'http://192.168.3.101:5000/upload'//此处需要修改IP地址，将IP地址改为部署的本地图床服务器。
   },
 
   /**

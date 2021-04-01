@@ -1,2 +1,2 @@
-<!--pages/upload/upload.wxml-->
+<!--pages/upload/upload.wxml 此处为上传模块的项目路径，将图片上传到树莓派-->
 <view style="margin-right:0ch"><van-button round type="info" bindtap="upupup">上传图片</van-button></view>

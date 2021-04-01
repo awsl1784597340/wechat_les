@@ -4,10 +4,6 @@ let touchDotY = 0;//y按下时坐标
 let interval;//计时器
 let time = 0;//从按下到松开共多少时间*100
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
     poster: null,
     name: null,
@@ -33,7 +29,7 @@ Page({
       let newid=Math.floor(Math.random()*10);
       _that.setData({musicid:newid})
       wx.request({
-        url: 'https://cloud-music-api.vercel.app/top/song',
+        url: 'https://cloud-music-api.vercel.app/top/song',//链接云端API
         success (res) {
           if(res.data.code===200){
             _that.setData({musiclist:res.data.data})

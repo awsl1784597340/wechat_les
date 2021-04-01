@@ -1,4 +1,4 @@
-<!--pages/audio/audio.wxml-->
+<!--pages/audio/audio.wxml 音频播放模块-->
 <mainuse/>
 <upload class="upload"/>
 
